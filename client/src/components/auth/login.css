@@ -1,0 +1,43 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+    font-family: sans-serif;
+}
+.login .card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.card h2{
+    color: white;
+}
+.card input{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+ text-indent: 8px;
+ border-radius: 4px;
+}
+.card p{
+    color: white;
+    margin-left: 5px;
+}
+.card span{
+    color: blue;
+    cursor: pointer;
+}
+.card button{
+    background: rgb(17, 231, 99);
+    outline: none;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+}
